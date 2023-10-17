@@ -8,3 +8,5 @@
 3)
     shift + cmd + p (allows to search up settings)
     ctrl + tilde (shows the terminal)
+4)
+    rename variables and functions with F2
