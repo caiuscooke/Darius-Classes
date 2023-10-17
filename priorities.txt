@@ -1,0 +1,11 @@
+1) data types
+2) variables
+3) if/elif/else
+4) try-catch
+5) loops (for and while)
+6) functions
+7) classes
+8) inheritance
+9) objects
+10) modules
+11) frameworks and CLI

@@ -1,0 +1,10 @@
+1)  
+    CMD + backspace
+    cmd + arrow keys
+    cmd + shift + arrowkeys
+    cmd + l (highlights the entire line) 
+2)
+    ctrl + tab (changes the file you're looking at)
+3)
+    shift + cmd + p (allows to search up settings)
+    ctrl + tilde (shows the terminal)

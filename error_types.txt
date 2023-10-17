@@ -1,0 +1,10 @@
+3 Error Types
+1) Logic Error
+- This does not give an error message
+- Your code that you wrote, is not running as you expected, but the program isnt breaking
+2) Syntax Error
+- VS Code will give you the error underline before running it
+- Much easier to spot (the most common error, ironically)
+3) Runtime Error
+- Similar to a logic error, in that doesn't give you an underline
+- The program will still run, until it gets to this point in the logic, then program breaks
