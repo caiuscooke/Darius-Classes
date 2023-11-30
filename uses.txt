@@ -1,0 +1,25 @@
+IF-ELSE
+    used to check if something is true
+TRY-CATCH
+    to handle an error in a way that makes sense to your program
+WHILE LOOP
+    to do some code so long as a condition is true
+FOR LOOP
+    to do something a set number of times, or do something for each item in a sequence
+    DOESNT MATTER IF SOMETHING IS TRUE OR FALSE
+    Tells python "Do something this many times" or "do something for each item in this variable"
+CLASSES
+    a blueprint for an object, you're telling python "I have a bunch of things that need these characteristics"
+    You want something to use the same 3 variables, but you don't want to have to type out those three variables everytime
+    Instead of;
+        name1 = "nick"
+        name2 = "brad"
+        nicks_age = 30
+        brads_age = 50
+        print("Hi my name is " + name1 + ". I am " + nicks_age)
+        print("Hi my name is " + name2 + ". I am " + brads_age)
+    You do this
+        person = Person("nick", 30)
+        person2 = Person("brad", 50)
+        person.print_info()
+        person2.print_info()
