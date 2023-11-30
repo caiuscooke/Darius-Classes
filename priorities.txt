@@ -9,3 +9,4 @@
 9) objects
 10) modules
 11) frameworks and CLI
+12) function decorators (otherwise known as @ decorators)
