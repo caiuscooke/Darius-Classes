@@ -1,0 +1,13 @@
+Fred,Daphne,Velma,Shaggy and Scooby
+Shaggy and Scooby,Fred,Daphne,Velma
+Fred,Daphne,Velma,Shaggy and Scooby
+Fred and Daphne,Velma,Shaggy and Scooby
+Fred,Shaggy,Daphne and Velma,Scooby
+Shaggy,Daphne,Fred,Velma,Scooby
+Daphne,Fred,Shaggy and Scooby,Velma
+Shaggy and Scooby,Fred and Daphne,Velma
+Fred and Daphne,Velma,Scooby,Shaggy
+Fred and Daphne,Shaggy,Velma,Scooby
+Fred,Daphne,Velma,Scooby,Shaggy
+Shaggy and Scooby,Fred,Daphne,Velma
+Fred,Velma,Shaggy,Daphne,Scooby

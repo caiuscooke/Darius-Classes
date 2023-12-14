@@ -1,0 +1,3 @@
+Concept: User gets asked a question, and has choices. User will select a choice by typing in the letter before it (a, b, c, or d)
+         Each question's answer has a point towards a certain character
+         At the end, add up all the answers' points and whichever character has the most points is the user's character
