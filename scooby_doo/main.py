@@ -2,8 +2,10 @@ import os
 from string import ascii_lowercase, ascii_uppercase
 from typing import List, Dict
 
+
 # get current working directory, aka what folder does python think we're using
 cur_dir = os.getcwd()
+print(cur_dir)
 
 # use the join method to append "scooby_doo" to the end of the current directory
 cur_dir = os.path.join(cur_dir, "scooby_doo")
@@ -15,17 +17,18 @@ os.chdir(cur_dir)
 # if a user gives a certain answer, add 1 to that characters name the answer aligns with
 # the program finds the highest number at the end and prints out whatever the key is
 results = {
+    # key value
     "Fred": 0,
     "Daphne": 0,
     "Velma": 0,
     "Shaggy": 0,
-    "Scooby": 0
+    "Scooby": 0,
 }
-
 
 # I used type notation (the arrows and the colons) to define my functions so you can see what
 # you'd normally see in a real world environment
 # -> List[str] means it's returning a list of strings
+
 
 def read_file(file_name: str) -> List[str]:
 
@@ -56,8 +59,8 @@ def get_qa():
 
     # enumerate is a class that allows you to get the index AND value of an iterable
     # and then loop over it
-    for index, value in enumerate(questions):
-        q_a_dict[value] = answers[index]
+    for index, question in enumerate(questions):
+        q_a_dict[question] = answers[index]
 
     return q_a_dict
 
@@ -65,13 +68,17 @@ def get_qa():
 def get_keys() -> List[Dict[str, str]]:
     keys = read_file("keys.txt")
     keys = [key.split(sep=",") for key in keys]
+
     for index, inner_list in enumerate(keys):
         new_dict = {}
         letters = ascii_lowercase[:len(inner_list)]
+
         for ind, item in enumerate(inner_list):
             letter = letters[ind]
             new_dict[letter] = item
+
         keys[index] = new_dict
+
     return keys
 
 
@@ -128,6 +135,7 @@ days.
 #     print(f"B) {q_a_list[2]}")
 #     print(f"C) {q_a_list[3]}")
 #     print(f"D) {q_a_list[4]}")
+
 #     answer = input().lower()
 
 #     if answer == "a":
