@@ -4,20 +4,21 @@ from typing import List
 
 def assemble_game_board(word: str) -> List[str]:
     board = []
+
     for each_letter in word:
         board.append("_")
+
     return board
 
 
-def get_guessed_letter():
-    user_input = input()
-
-    while type(user_input) != str:
-        print("That is not a supported character. Please make sure to type in a letter.")
-        user_input = user_input()
-
-    user_input = user_input.lower()
-    return user_input
+def get_guessed_letter() -> str:
+    while True:
+        user_input = input()
+        try:
+            int(user_input)
+            print("only use letters")
+        except:
+            return user_input
 
 
 def update_board(guessed_ltr: str, word: str, board: list) -> List[str]:
@@ -32,6 +33,7 @@ def update_board(guessed_ltr: str, word: str, board: list) -> List[str]:
 def check_winner(board: list) -> bool:
     if "_" not in board:
         return True
+
     return False
 
 
