@@ -1,0 +1,58 @@
+define following into a function named make_pbj(parameter = num of sandwiches)
+if peanut allergy
+dont make this sandwich
+else
+continue
+
+move to kitchen 
+open pantry
+if peanutbutter exists & bread exists
+move pb and bread to kitchen counter
+else
+go to grocery store
+
+move to fridge
+open fridge
+if jelly exists
+move jelly to kitchen counter
+else
+go to grocery store
+
+move to drawer
+open drawer
+if knife exists 
+put knife on kitchen counter
+else
+move to dishwasher
+if knife exists in dishwasher
+if knife in dishwasher is clean
+put knife on kitchen counter
+else
+clean knife
+put knife on kitchen counter
+
+move to cabinet
+if plate exists in cabinet
+put plate on kitchen counter
+
+put two slice of bread on plate
+
+pick up pb
+open pb
+pick up knife
+insert knife in pb
+put pb jar down
+pick up slice of bread
+spread pb on bread with the knife
+put the bread down
+if knife still covered in pb
+wipe knife off
+pick up jelly
+put knife in jelly
+put jelly down
+pick up other slice of bread
+spread jelly on bread with knife
+put knife down
+put jelly slice on pb slice with jelly and pb touching
+loop lines 38 - 56 number of slices paramater times 
+return sandwich(es)

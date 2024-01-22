@@ -1,0 +1,21 @@
+# keep lines seperate 
+# pseudocode like you are about to actually code it
+
+if not in my car
+you need to find your car
+
+if not seated in driver seat
+get to the driver seat
+
+if mirrors and seat not adjusted
+adjust seat and mirrors to your comfort
+
+if key is not with you
+get your keys
+
+if ignition lock cylinder exists & preceding conditions are desirable
+insert car key
+twist key until engine ignites
+else
+push the keyless ignition button
+
